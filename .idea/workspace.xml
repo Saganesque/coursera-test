@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="270fafd6-bfba-41dc-83ff-3aaa8bfcf8e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/.index.html.swp" afterPath="$PROJECT_DIR$/site/.index.html.swp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/index.html" afterPath="$PROJECT_DIR$/site/index.html" />
     </list>
     <ignored path="coursera-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -462,12 +460,12 @@
       <workItem from="1486603565883" duration="1824000" />
       <workItem from="1486782291793" duration="16869000" />
       <workItem from="1487115704889" duration="376000" />
-      <workItem from="1487116089193" duration="26814000" />
+      <workItem from="1487116089193" duration="27741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56427000" />
+    <option name="totallyTimeSpent" value="57354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
