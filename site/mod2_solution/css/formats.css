@@ -1,6 +1,7 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -8,6 +9,7 @@
 h1 {
 text-align: center}
 h2 {
+    float: right;
     border: 1px solid black;
     margin-bottom: 15px;
     background-color: #A52A2A;
@@ -42,7 +44,10 @@ p {
 .row {
     width: 100%;
 }
+.Lorem:before {
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare arcu ipsum, id vehicula leo ornare lacinia. Aliquam non ultricies lectus, sed consectetur lacus. In aliquam maximus massa nec porttitor. Fusce vitae tempus augue. Donec eget risus vitae lorem iaculis faucibus. Nam fermentum ac mauris vel convallis. Proin fringilla aliquet purus eget consequat. Nunc sed faucibus justo, in imperdiet lorem. Ut iaculis a diam in blandit. Etiam eu velit nulla. Vivamus eget vulputate ex, rhoncus pulvinar enim. Vestibulum eget ligula libero.'
 
+}
 /********** Large devices only **********/
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
