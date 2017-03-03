@@ -14,27 +14,30 @@ h2 {
     float: right;
     border: 1px solid black;
     margin: 0px;
+    margin-bottom: 15px;
     width: 33.3%
 }
 
 #Chicken {
 
     background-color: #23a522;
+    float: right;
 }
 
 #Beef {
     background-color: #dad224;
+    float: right;
 }
 
 #Sushi {
     background-color: #2aabd2;
+    float: right;
 }
 
 p {
     clear: right;
     height: 150px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 10px;
     font-family: Helvetica, sans-serif;
     color: black;
 }
@@ -44,13 +47,13 @@ p {
     width: 100%;
 }
 .Lorem:before {
-   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare arcu ipsum, id vehicula leo ornare lacinia. Aliquam non ultricies lectus, sed'
+   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare arcu ipsum, id vehicula leo ornare non lacinia. Aliquam non ultricies lectus, sed Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare arcu ipsum, id vehicula leo ornare non lacinia. Aliquam non ultricies lectus, sed'
 
 }
 
 .adjust {
     border: 1px solid black;
-    margin: 10px;
+    margin: 15px;
     background-color: #6a6a6a;
 
 }
