@@ -54,3 +54,6 @@ bower.json
 .idea/restRequest.json
 .idea/workspace.xml
 Would skip repository fullstack-course4/
+.ideabackup/
+workbench/
+/fullstack-course4/
