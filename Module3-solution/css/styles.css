@@ -2,9 +2,6 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body {
-}
-
 /**Header Nav **/
 #header-nav {
     background-color: #999999;
@@ -12,39 +9,34 @@ body {
     border: 0;
 }
 
-.navbar-brand {
-
-    color: #d22936;
-
+#header-nav.navbar.navbar-default {
+  margin-bottom: 0px;
 }
 
-div#chicken {
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+#main div {
   background-color: #999999;
 
 }
 
+.box {
+    margin: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 0px;
+    background-color: #999999;
+}
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    background:  ;
-    height: 558px;
-  }
   /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
-  /* End Home Page */
 
 }
 
@@ -63,5 +55,9 @@ div#chicken {
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
+  }
+
+   #chicken, #beef, #sushi {
+      padding: 45px;
   }
 }
