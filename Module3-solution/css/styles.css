@@ -13,6 +13,12 @@
   margin-bottom: 0px;
 }
 
+#nav-list a{
+    color: black;
+    background-color: #b5c3d2;
+    border-bottom: dotted;
+}
+
 .navbar-default .navbar-brand {
     color: #000;
 }
